@@ -7,7 +7,7 @@ export default function Avatar() {
   const [offset, setOffset] = useState(null);
   const ref = useRef(null);
 
-  const getEyeTranslate = useCallback((part = "eye") => {
+  const getFeatureTranslate = useCallback((part = "eye") => {
     const LIMITS = {
       beard: { x: -3, y: -5 },
       eye: { x: 10, y: 3 },
@@ -69,7 +69,7 @@ export default function Avatar() {
 
   return (
     <div ref={ref}>
-      <Face getEyeTranslate={getEyeTranslate} />
+      <Face getFeatureTranslate={getFeatureTranslate} />
     </div>
   );
 }
