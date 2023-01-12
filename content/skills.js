@@ -1,0 +1,30 @@
+export const techSkills = [
+  "Python",
+  "JavaScript",
+  "C++",
+  "HTML",
+  "CSS",
+  "React",
+  "React-Native",
+  "Redux",
+  "Node.js",
+  "Django",
+  "DRF",
+  "Docker",
+  "Git",
+  "Jenkins",
+  "Cucumber",
+  "Appium",
+  "Cypress",
+  "Linux",
+  "Windows",
+  "Linode",
+  "AWS",
+];
+
+export const softSkills = [
+  "Bilingual (English and Spanish)",
+  "Communication with non-technical customers",
+  "Problem-solving",
+  "Self-learning",
+];
