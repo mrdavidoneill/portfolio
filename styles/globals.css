@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .animation-delay-slower {
+    animation-delay: 2s;
+  }
+  .animation-delay-slowest {
+    animation-delay: 4s;
+  }
+  .main-stop {
+    stop-color: purple;
+  }
+  .alt-stop {
+    stop-color: blue;
+  }
+}
