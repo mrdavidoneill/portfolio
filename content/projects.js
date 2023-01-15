@@ -18,7 +18,7 @@ const kithub = {
     "Linux",
     "Git",
   ],
-  links: [{ href: "https://github.com/mrdavidoneill/TM470", label: "GitHub" }],
+  links: [{ href: "https://github.com/mrdavidoneill/kithub", label: "GitHub" }],
 };
 
 const labelchopper = {
