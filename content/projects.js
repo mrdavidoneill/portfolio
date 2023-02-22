@@ -1,6 +1,6 @@
 const kithub = {
   title: "REST API for DIY kit inventory manager",
-  images: ["/images/kithub002.png", "/images/kithub002.png"],
+  images: ["/images/kithub001.png", "/images/kithub002.png"],
   // proposal:
   //   "A client with a large Amazon business wanted a web app that could convert the default A4 shipping labels given by Amazon to a format that could be printed using a thermal label printer.",
   solution:
