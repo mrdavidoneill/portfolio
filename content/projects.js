@@ -1,3 +1,29 @@
+const filmhelper = {
+  title: "React front-end and DRF REST API for rating films",
+  images: ["/images/filmhelper001.png", "/images/filmhelper002.png"],
+  // proposal:
+  //   "A personal project to store my film ratings and add films I want to watch to a "watch later" list",
+  solution:
+    "Front-end was built using React, NextJS and TypeScript.  A REST API to store watchlists and ratings was built using Django and Django REST Framework (DRF), with external data fetched using OMDb API.  React testing was used for unit tests and snapshots, and Django testing for API unit testing.  Docker and Docker-Compose was used to containerise the project.",
+  tech: [
+    "React",
+    "NextJS",
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "Django",
+    "DRF",
+    "Docker",
+    "Docker-Compose",
+    "Jenkins",
+    "Linux",
+    "Git",
+  ],
+  links: [
+    { href: "https://github.com/mrdavidoneill/filmhelper", label: "GitHub" },
+  ],
+};
+
 const kithub = {
   title: "REST API for DIY kit inventory manager",
   images: ["/images/kithub001.png", "/images/kithub002.png"],
@@ -55,4 +81,4 @@ const lawnmanager = {
   ],
 };
 
-export const projects = [kithub, labelchopper, lawnmanager];
+export const projects = [filmhelper, kithub, labelchopper, lawnmanager];
